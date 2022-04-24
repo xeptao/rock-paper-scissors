@@ -4,7 +4,7 @@ from handlers.wrong_input import handle_wrong_input
 
 
 def rock_paper_scissors():
-    start = input("y to start, n to exit.")
+    start = input("y to start, n to exit. \n")
 
     if start == "y":
         handle_game()
