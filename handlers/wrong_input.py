@@ -2,4 +2,5 @@ from cProfile import run
 
 
 def handle_wrong_input():
-    pass
+    print("you should either enter y or n, exitting")
+    exit()
