@@ -38,13 +38,14 @@ def check_winner(user_choice, comp_choice):
 
 def handle_game():
     while True:
-        user_choice = input("\nr for rock, p for paper, s for scissors: \n")
+        user_choice = input(
+            "\nr for rock, p for paper, s for scissors: \n").lower()
         comp_choice = pick_for_computer()
 
         check_winner(user_choice, comp_choice)
 
         option_quit_or_play = input(
-            "wanna play again? anything for yes, n for no \n")
+            "wanna play again? anything for yes, n for no \n").lower()
 
         if option_quit_or_play == "n":
             exit()
