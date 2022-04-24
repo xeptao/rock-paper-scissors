@@ -1,2 +1,2 @@
 def handle_exit():
-    pass
+    exit()
