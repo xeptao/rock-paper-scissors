@@ -1,5 +1,6 @@
 def handle_exit():
-  pass
+    pass
+
 
 if __name__ != "__main__":
-  handle_exit()
+    handle_exit()

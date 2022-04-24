@@ -1,5 +1,6 @@
 def handle_game():
-  pass
+    pass
+
 
 if __name__ != "__main__":
-  handle_game()
+    handle_game()
